@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+.firstcontainer {
+background-color: rgb(169, 217, 233);
+border: 1px solid aliceblue;
+padding: 30px;
+}
+
+.heading {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+font-weight: bold;
+}
+
+.profilepicture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;    
+}
+
+.twitterimage {
+    width: 40px;
+    height: 20px;
+}
+.firstcontainer> div{
+    width: 80%;
+    margin: 0 auto;
+}
+.profilecontainer {
+    display: flex;
+    padding-top: 20px;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: space-around;
+   
+    /* flex-flow: row wrap; */
+}
+
+#individualcontainer {
+    background-color: white;
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
+    border-radius: 8px;
+    }
+
+.spacing {
+    gap: 60px; 
+    display: flex;
+}
+
+.separate {
+    display: flex;
+    gap: 10px;
+}
+
+.namespacing {
+    gap: 5px;
+}
+
+.likebutton {
+    color: red;
+}
+
+.likegap {  
+    display: flex;   
+    justify-content: space-between;
+}
+
+.secondcontainer {
+    background-color: white;
+}
+
+.paymentcontainer {
+    background-color: rgb(238, 231, 223);
+    padding: 20px;
+    margin:auto;
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgb(219, 137, 137);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dollar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;  
+}
+    
+.linespacing {
+    line-height: 30px;;
+}
+
+.twitterbutton {
+    background-color: rgb(23, 102, 213);
+    color: white;
+    display:inline-block;
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 5%;
+    height: 30px;
+}
+
+.twitterbutton:hover {
+    background-color: white;
+}
+
+.twitterbirdbutton {
+    width: 20px;
+    height: 10px;
+    color: white;
+    background-color: white;
+}
+
+.checkmark {
+    width:20px;
+    height: 20px;
+    margin: auto;
+    padding: 3px;
+    
+}

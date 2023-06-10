@@ -4,5 +4,7 @@ function filterList(arr) {
     if (typeof arr[i] === 'number');
  }  return arr[i];
  }
-console.log(filterList([1,2,'a','b']))
-  module.exports =filterList
+// console.log(filterList([1,2,'a','b']))
+//   module.exports =filterList
+
+//Solved
